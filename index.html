@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<font face="Arial">
+  <head>
+  	<div id="code"><!-- for hiding at beginning -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cake Clicker</title>
+    <div class="copyright" id="copyright"><p style="color: white; float: left;"><a href="copyright.html">Copyright</a> &copy; 2018 cjmatthyGames</p> <p style="float: right; color: aqua;" onclick="hide(copyright);"> Hide this?</p></div>
+    <input type="text" id="caker" value="0" disabled size="30" />
+    <img src="img/bigCake2.png"  id="bigCakeT" width="256" height="256" onclick="clickTwo();" alt="Uh oh, something went wrong! Your cake is gone!"></img>
+    <img style="align: left;" id="bigCake" width="256" height="256" src="img/bigCake1.png" onclick="clickOne();" alt="Uh oh, something went wrong! Your cake is gone!"></img>
+    <div class="shop" id="shop">
+    	<input type="text" id="box" /><button onclick="checkb()" style="float: left;">check</button>
+    	<h2 id="shopicon">Shop and Stats</h2>
+    	<button id="buydes" width="200" height="100" onclick="buyDesigner();">
+    		<br />
+    		<pre style="font-family: Arial;" id="predesbuy">     Buy a Designer! (-15)    </pre>
+    	<br />
+    	</button>
+    	<br />
+    	<button id="buyncakea" width="200" height="100" onclick="buyNCakeA();">
+    		<br />
+    		<pre style="font-family: Arial;" id="predesbuy">     Buy a Triple-Layered Cake! (-100)    </pre>
+    	<br />
+    	</button>
+    	<br />
+    	<p style="display: inline-block;">Cakes per second: </p><input style="display: inline-block;" type="text" id="cpsd" value="0" disabled />
+    </div>
+    <img src="img/df.gif" id="frog"></img>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    </div>
+  </head>
+  <body onclick="beforestart();">
+  	<h2 id="starta" style="float: center; position: absolute; left: 50%; top: 25%;">made by<br /> CHRISTIAN MATTHY or cjmatthy</h2>
+  	<h4 id="startb">(click for next part)</h4>
+  	<div id="cakel">
+  		<h1>Cake<img id="imga" onclick="start();" width="200" height="200" src="img/bigCake1.png" /> Clicker</h1>
+  		<h4 id="infoa">(click the cake to begin)</h4></h4>
+  	</div>
+    <script src="main.js"></script>
+  </body>
+  </font>
+</html>
