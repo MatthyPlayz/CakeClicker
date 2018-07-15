@@ -1,7 +1,7 @@
 # CakeClicker
 ### Information
 Click a cake. Buy things with cakes to get more cakes. frogcake.
-Yeah, there isn't many instructions to follow. :|
+Yeah, there aren't many instructions to follow. :|
 ### Contribute
 Please send **cakeclickerinfo@gmail.com** a email for further instructions 
 on how to do this!
